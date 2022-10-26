@@ -17,6 +17,7 @@ if (!defined('APP_PATH')){
         <div class="row my-3">
             <div class="col-md-6 offset-3">
                 <h1 class="text-center mb-2">Tim kiem phim</h1>
+                <p>name: <?=$data['name'];?> </p>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="nhap ten bo phim">
                         <button class="input-group-text btn btn-primary" id="js-search">Tim kiem</button>
