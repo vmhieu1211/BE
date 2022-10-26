@@ -81,4 +81,6 @@ else{
     echo "khong dung dinh dang";
 }
 
-// 
+// ??????????????????????
+// viet bieu thuc chinh quy kiem tra do manh yeu cua mat khau
+// 8 ki tu tro len, it nhat 1 chu hoa thuong, it nhat 1 chu hoa ,it nhat 1 con so , it nhat 1 ky tu dac biet                                                                                                            
