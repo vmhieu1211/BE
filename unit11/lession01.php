@@ -70,12 +70,15 @@ $date = "29/02/2022";
 $checkDate ="/^(0[1-9]|1\d|2\d|3[0-1])\/(0[1-9]|1[0-2])\/([1-9]\d{3})$/";
 // ?? mysql
 if(preg_match($checkDate,$date,$match)){
-    echo "tim thay";
-    echo "<pre>";
-    print_r($match);
+    // echo "tim thay";
+    // echo "<pre>";
+    // print_r($match);
+    //xử lý logic kiểm tra xem dữ liệu ngày tháng đúng hay sai
+
 
 }
 else{
     echo "khong dung dinh dang";
 }
 
+// 
