@@ -83,4 +83,15 @@ else{
 
 // ??????????????????????
 // viet bieu thuc chinh quy kiem tra do manh yeu cua mat khau
-// 8 ki tu tro len, it nhat 1 chu hoa thuong, it nhat 1 chu hoa ,it nhat 1 con so , it nhat 1 ky tu dac biet                                                                                                            
+// 8 ki tu tro len, it nhat 1 chu hoa thuong, it nhat 1 chu hoa ,it nhat 1 con so , it nhat 1 ky tu dac biet                          
+    $password ="Vmhieu123@";
+    $checkPassword ="/^\S*(?=\S{8,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])\S*$/";
+if(preg_match($checkPassword,$password,$match)){
+    echo "ok";
+    echo "<pre>";
+    print_r($match);
+    
+}
+else{
+    echo "mat khau yeu";
+}
