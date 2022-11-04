@@ -9,11 +9,7 @@ if (!defined('APP_PATH')){
 require 'model/Movie_model.php';
 
 function Movie(){
-    //gọi dữ liệu từ model ra
-    $data = searchMovieByName();
     //goi view
     require 'view/movie_view.php';
 
-
 }
-Movie();
