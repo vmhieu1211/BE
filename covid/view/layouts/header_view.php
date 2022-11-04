@@ -1,4 +1,4 @@
-<?php if(!defined('APP_PATH')); {die('can not access');}?>
+<?php if(!defined('APP_PATH')) {die('can not access');}?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

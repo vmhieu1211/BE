@@ -1,5 +1,4 @@
-<?php if(!defined('APP_PATH')); {die('can not access');}?>
-
+<?php if(!defined('APP_PATH')) {die('can not access');}?>
             </div>
         </div>
     </div>

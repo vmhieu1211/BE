@@ -1,5 +1,5 @@
 <?php
-if(defined('APP_PATH')){
+if(!defined('APP_PATH')){
     die('can not access');
 }
 $method=strtolower($_GET['m'] ?? 'index');
