@@ -20,11 +20,11 @@ if (!defined('APP_PATH')){
                     <div class="input-group mb-3">
                         <input id="js-keyword" type="text" class="form-control" placeholder="nhap ten bo phim">
                         <button class="input-group-text btn btn-primary" id="js-search">Tim kiem</button>
-            </div>
-            <div id="loading" style="display:none !important;" class="d-flex justify-content-center">
-                <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
+                    </div>
+                <div class="text-center">
+                    <div class="spinner-border" id="loading" style="display:none" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
                 </div>
         </div>
         <!--hien thi du lieu ajax-->
@@ -47,6 +47,10 @@ if (!defined('APP_PATH')){
                             },
                         success:function(respone){
                             //respone du lieu nhan ve 
+                            //an loading data - lay data xong roi
+                            $('#loading').hide();
+                            //view du lieu
+                            $('#result').html(respone);
                         }
                     });
                 } else{

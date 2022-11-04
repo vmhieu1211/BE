@@ -22,6 +22,7 @@ switch($method){
 
 function Search(){
     $nameMovie =strip_tags($_POST['name'] ?? '');
+    $nameMovie =urldecode($nameMovie);
     $dataSearch =[];
     if(!empty($nameMovie)){
         $dataSearch = searchMovieByName($nameMovie);
