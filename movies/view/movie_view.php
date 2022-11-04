@@ -51,10 +51,8 @@ if (!defined('APP_PATH')){
                     });
                 } else{
                     alert('Vui long nhap ten bo phim');
-                }
-                
+                }               
             })
-
         })
     </script>
 </body>

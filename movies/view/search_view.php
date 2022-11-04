@@ -7,9 +7,8 @@ if (!defined('APP_PATH')){
     <div class="row">
 
         <div class="row">
-            <div class="col">
-                <h5>Khong co du lieu bo phim ban can tim kiem</h5>
-            </div>
+        <div class="col">
+            <h5>Khong co du lieu bo phim ban can tim kiem</h5>
         </div>
         </div>
     <?php else:?>
